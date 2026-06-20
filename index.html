@@ -34,9 +34,8 @@
           <h1 style="font-family:'Anton';font-weight:400;font-size:46px;line-height:.92;margin:16px 0 0;text-transform:uppercase;text-shadow:0 4px 20px rgba(0,0,0,.3);">2 KUNDA AI BILAN <span style="color:#ffe08a;">BIRINCHI DAROMAD</span></h1>
           <p style="margin:12px 8px 0;color:rgba(255,255,255,.88);font-size:14px;line-height:1.5;font-weight:600;">Onlayn bepul master-klass. Joylar soni cheklangan.</p>
 
+          <div style="font-size:11px;letter-spacing:.16em;color:rgba(255,255,255,.9);font-weight:800;text-align:center;margin-top:18px;">⏳ MAXSUS TAKLIF TUGASHIGA</div>
           <div style="display:flex;gap:7px;justify-content:center;margin-top:20px;">
-            <div style="flex:1;background:rgba(255,255,255,.14);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.25);border-radius:12px;padding:11px 4px;"><div style="font-family:'Anton';font-size:28px;line-height:1;"><span data-cd="dd">00</span></div><div style="font-size:8px;letter-spacing:.1em;margin-top:5px;font-weight:700;opacity:.85;">KUN</div></div>
-            <div style="flex:1;background:rgba(255,255,255,.14);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.25);border-radius:12px;padding:11px 4px;"><div style="font-family:'Anton';font-size:28px;line-height:1;"><span data-cd="hh">00</span></div><div style="font-size:8px;letter-spacing:.1em;margin-top:5px;font-weight:700;opacity:.85;">SOAT</div></div>
             <div style="flex:1;background:rgba(255,255,255,.14);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.25);border-radius:12px;padding:11px 4px;"><div style="font-family:'Anton';font-size:28px;line-height:1;"><span data-cd="mm">00</span></div><div style="font-size:8px;letter-spacing:.1em;margin-top:5px;font-weight:700;opacity:.85;">DAQIQA</div></div>
             <div style="flex:1;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.25);border-radius:12px;padding:11px 4px;"><div style="font-family:'Anton';font-size:28px;line-height:1;"><span data-cd="ss">00</span></div><div style="font-size:8px;letter-spacing:.1em;margin-top:5px;font-weight:700;opacity:.85;">SONIYA</div></div>
           </div>
@@ -112,7 +111,7 @@
       </div>
 <script>
 (function(){
-  var target = new Date('2026-07-02T20:30:00+05:00').getTime();
+  var target = Date.now() + 2*60*1000;
   var p = function(n){ return String(Math.max(0,n)).padStart(2,'0'); };
   function tick(){
     var diff = target - Date.now(), s = Math.max(0, Math.floor(diff/1000));
